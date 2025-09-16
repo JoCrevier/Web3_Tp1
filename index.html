@@ -16,7 +16,7 @@
 <body data-bs-theme="dark" class="d-flex flex-column" style="min-height: 100vh;">
 
 <!-- HEADER -->
- <header class="bg-primary py-3 container-fluid">
+ <header class="bg-primary py-3 container-fluid position-relative" style="z-index: 10; margin-bottom: -50px;">
     <div class="container">
         <div class="row bg-primary">
             <div class="col-2 bg-secondary mb-3 mt-3">
@@ -27,13 +27,16 @@
     </div>
 </header>
 
-<!-- MAIN -->
-<main class="container-fluid py-3">
+<div style="background-image: url('./img/Banniere_01.webp'); background-size: cover; background-position: center; height: 600px;"></div>
 
-    <div class="row pb-5 pt-5 mb-5 mt-5 d-flex justify-content-center bg-secondary">
-        <div class="col-12 d-flex justify-content-center display-6 fw-bold">Biome / écosystème</div>
+<!-- MAIN -->
+<main class="container-fluid">
+
+    <div class="row pb-5 pt-3 mb-5 d-flex justify-content-center bg-secondary">
+        <div class="col-6 d-flex justify-content-center display-6 fw-bold">Biome / écosystème</div>
+        <hr class="border-3 w-75 mx-auto my-4">
         <!-- Text -->
-        <p class="col-6 mt-5 text-justify">Ghost Recon Wildlands offre une reconstitution saisissante de la Bolivie, 
+        <p class="col-4 mt-5 text-justify">Ghost Recon Wildlands offre une reconstitution saisissante de la Bolivie, 
             avec des environnements vastes, variés et incroyablement réalistes. Le jeu propose une 
             diversité de biomes impressionnante, allant des sommets enneigés aux forêts tropicales 
             denses, en passant par des déserts arides, des marécages brumeux et des vallées luxuriantes. 
@@ -43,8 +46,9 @@
             unique. Explorer le monde de Wildlands, c’est vivre un voyage dépaysant et sensoriel 
             au cœur d’une nature aussi belle que dangereuse.</p>
         <!-- Text -->
+
         <!-- Conteneur carte + swiper 1 -->
-         <div class="col-6 mt-5">
+        <div class="col-4 mt-5">
             <!-- CARD 01 -->
             <div class="card">
                 <!-- SWIPER -->
@@ -75,23 +79,64 @@
             </div>
           </div>
         </div>
-
     </div>
 
-    <div class="row-2 pb-5 pt-5 mb-5 mt-5 bg-success">
-        <div class="col-xxl-12 bg-warning pb-5 pt-5">
-            <h2 class=" display-6 fw-bold">Main page 2</h2>
+    <div class="row pb-5 pt-5 mb-5 mt-5 d-flex justify-content-center bg-secondary">
+        <div class="col-12 d-flex justify-content-center display-6 fw-bold">Météo</div>
+        <hr class="border-3 w-75 mx-auto my-4">
+        <!-- Text -->
+        <p class="col-4 mt-5 text-justify">La météo dans Ghost Recon Wildlands est un véritable 
+            atout immersif, apportant une profondeur remarquable à l'expérience de jeu. 
+            Les changements climatiques dynamiques, comme les orages soudains, les averses 
+            tropicales ou le brouillard matinal, influencent non seulement la visibilité 
+            mais aussi l’ambiance générale des missions. Chaque condition météorologique est 
+            rendue avec un réalisme bluffant, grâce à des effets visuels et sonores soignés. 
+            Ces variations rendent le monde plus vivant et imprévisible, ajoutant une 
+            dimension stratégique captivante. On se surprend à s'arrêter pour observer 
+            un coucher de soleil après la pluie, tant l’atmosphère est bien retranscrite.</p>
+        <!-- Text -->
+
+        <!-- Conteneur carte + swiper 2 -->
+        <div class="col-4 mt-5">
+            <!-- CARD 01 -->
+            <div class="card">
+                <!-- SWIPER -->
+                <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                  
+                        <div class="swiper mySwiper">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img/Temperature_01.jpg" class="img-fluid w-100 pt-3" alt="..."></div>
+                            <div class="swiper-slide"><img src="./img/Temperature_02.jpg" class="img-fluid w-100 pt-3" alt="..."></div>
+                            <div class="swiper-slide"><img src="./img/Temperature_03.jpg" class="img-fluid w-100 pt-3" alt="..."></div>
+                            <div class="swiper-slide"><img src="./img/Temperature_04.jpg" class="img-fluid w-100 pt-3" alt="..."></div>
+                            <div class="swiper-slide"><img src="./img/Temperature_05.jpg" class="img-fluid w-100 pt-3" alt="..."></div>
+                          </div>
+                          <div class="swiper-button-next"></div>
+                          <div class="swiper-button-prev"></div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </div>
+                <!-- SWIPER -->
+            <div class="card-body">
+              <h5 class="card-title d-flex justify-content-center fs-3">Biome</h5>
+            </div>
+          </div>
         </div>
     </div>
 
-    <div class="row-3 pb-5 pt-5 mb-5 mt-5 bg-success">
-        <div class="col-xxl-12 bg-warning pb-5 pt-5">
+    <div class="row pb-5 pt-5 mb-5 mt-5 d-flex justify-content-center bg-secondary">
+        <div class="col-12 d-flex justify-content-center display-6 fw-bold"></div>
             <h2 class=" display-6 fw-bold">Main page 3</h2>
         </div>
     </div>
 
-    <div class="row-4 pb-5 pt-5 mb-5 mt-5 bg-success">
-        <div class="col-xxl-12 bg-warning pb-5 pt-5">
+    <div class="row pb-5 pt-5 mb-5 mt-5 d-flex justify-content-center bg-secondary">
+        <div class="col-12 d-flex justify-content-center display-6 fw-bold">Biome / écosystème</div>
             <h2 class=" display-6 fw-bold">Main page 4</h2>
         </div>
     </div>

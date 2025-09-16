@@ -1,5 +1,17 @@
+:root,
+[data-bs-theme=light] {
+  --bs-primary: #ef5552;
+  --bs-primary-rgb: 239, 85, 82;
+  --bs-secondary: #6e6e6e;
+  --bs-secondary-rgb: 50, 50, 50;
+}
+
 .swiper-slide { width: 100% !important; }
 
 .swiper-button-next, .swiper-button-prev {
     color: #ff2600; /* Remplace #ff6347 par la couleur de ton choix */
+}
+
+.text-justify {
+  text-align: justify;
 }

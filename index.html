@@ -34,15 +34,14 @@
   </div>
 
   <!-- MAIN -->
-  <main class="container mx-auto" style="max-width: 1920px;">
+  <main class="container mx-auto" style="max-width: 2250px;">
     <div class="row">
       <!-- SIDEBAR -->
       <aside
-        class="col-2 position-sticky top-0 align-self-start bg-secondary rounded pt-3 pb-5 mt-5 mb-5">
+        class="col-3 position-sticky top-0 align-self-start bg-secondary rounded pt-3 pb-5 mt-5 mb-5">
       <ul class="nav flex-column">
         <li class="nav-item">
-          <p class="mx-3 fw-bold display-5 mt-2">index</p>
-        </li>
+          <h2 class="mx-3 fw-bold display-5 mt-2">Index</h2>
         <li class="nav-item">
           <a class="nav-link" href="#histoire">Histoire</a>
         </li>
@@ -59,7 +58,7 @@
       </aside>
 
       <!-- CONTENU PRINCIPAL -->
-      <section class="col-8 mt-5">
+      <section class="col-6 mt-5">
         <!-- Histoire -->
         <section id="histoire" class="bg-secondary rounded mb-5 p-4">
           <h2 class="text-uppercase text-center display-6 fw-bold">Histoire</h2>
@@ -86,7 +85,7 @@
               </p>
             </div>
             <div class="col-6">
-              <img src="./img/Histoire_01.jpg" class="img-fluid rounded" alt="Histoire" />
+              <img src="./img/Histoire_01.jpg" class="img-fluid rounded img-centered" alt="Histoire" />
             </div>
           </div>
 
@@ -214,22 +213,32 @@
         </section>
       </section>
 
-      <aside class="col-2 position-sticky top-0 align-self-start bg-secondary rounded pt-3 pb-5 mt-5 mb-5">
+      <aside class="col-3 position-sticky top-0 align-self-start bg-secondary rounded pt-3 pb-5 mt-5 mb-5">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <p class="mx-3 fw-bold display-5 mt-2">Raccourcis</p>
+            <h2 class="mx-3 fw-bold display-5 mt-2">articles similaires</h2>
+          <li>
+            <hr class="border-3 w-100 mx-auto my-2" />
+          </li>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#histoire">Résumé</a>
+            <div class="item-with-image mx-3 my-2">
+              <img src="./img/Faune_01.jpg" alt="Star Citizen" class="item-image" />
+              <a class="nav-link" href="#">Critique sur Star Citizen | Simulateur Spatiale</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#gameplay">Gameplay</a>
+            <div class="item-with-image mx-3 my-2">
+              <img src="./img/Faune_01.jpg" alt="Star Citizen" class="item-image" />
+              <a class="nav-link" href="#">Critique sur HITMAN | Jeu d'infiltration</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#meteo">Climat</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Retour en haut</a>
+            <div class="item-with-image mx-3 my-2">
+              <img src="./img/Faune_01.jpg" alt="Star Citizen" class="item-image" />
+              <a class="nav-link" href="#">Critique sur Sea Power | Simulateur Militaire</a>
+            </div>
+            </div>
           </li>
         </ul>
       </aside>

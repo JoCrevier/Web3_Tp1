@@ -36,3 +36,24 @@
   text-transform: uppercase;
   text-shadow: 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
 }
+
+.item-with-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-text {
+  margin: 0;
+  margin-right: 1rem; /* espace entre texte et image */
+}
+
+.item-image {
+  width: 125px;      /* taille de l’image */
+  height: auto;
+  border-radius: 5px; /* coins arrondis */
+}
+
+.img-centered {
+  margin-top:60px;
+}

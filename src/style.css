@@ -9,9 +9,30 @@
 .swiper-slide { width: 100% !important; }
 
 .swiper-button-next, .swiper-button-prev {
-    color: #ff2600; /* Remplace #ff6347 par la couleur de ton choix */
+  color: #ff2600; /* Remplace #ff6347 par la couleur de ton choix */
 }
 
 .text-justify {
   text-align: justify;
+}
+
+.banniere {
+  background-image: url("../img/Banniere_01.webp");
+  background-size: cover; /* Ajuste l'image pour qu'elle couvre toute la zone */
+  background-position: center; /* Centre l'image */
+  height: 600px; /* Ajuste la hauteur de la bannière */
+}
+
+.banniere .texte-banniere {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;  /* display-6 (Bootstrap) a approximativement cette taille */
+  text-align: center;
+  width: 75%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
 }

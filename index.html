@@ -16,15 +16,35 @@
 <body data-bs-theme="dark" class="d-flex flex-column" style="min-height: 100vh;">
   <!-- HEADER -->
   <header class="bg-primary py-3 container-fluid position-relative" style="z-index: 10; margin-bottom: -50px;">
-    <div class="container">
-      <div class="row bg-primary">
-        <div class="col-2 bg-secondary mb-3 mt-3">
-          <img src="/assets/" alt="logo" />
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <!-- Menu centré -->
+        <div class="col-12-fluid d-flex justify-content-center">
+          <ul class="nav bg-secondary rounded px-4 py-2">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Environnement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Recommandation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Meilleur note</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-10 bg-secondary mb-3 mt-3">allo</div>
       </div>
     </div>
   </header>
+  
 
   <!-- Bannière -->
   <div class="banniere">
@@ -268,7 +288,9 @@
   <footer class="bg-primary py-3 mt-auto">
     <div class="container">
       <div class="row bg-primary">
-        <div class="col-12 bg-secondary mb-3 mt-3">allo</div>
+        <div class="col-12 bg-secondary mb-3 mt-3 rounded mx-auto">
+          <p class="text-center mt-3 mb-3">2025 © Site de critique</p>
+        </div>
       </div>
     </div>
   </footer>

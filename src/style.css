@@ -23,13 +23,34 @@
   height: 600px; /* Ajuste la hauteur de la bannière */
 }
 
+.banniere2 {
+  background-image: url("../img/Banniere_04.jpeg");
+  background-size: cover; /* Ajuste l'image pour qu'elle couvre toute la zone */
+  background-position: center; /* Centre l'image */
+  height: 600px; /* Ajuste la hauteur de la bannière */
+}
+
+.banniere2 .texte-banniere {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;  /* display-6 (Bootstrap) a approximativement cette taille */
+  text-align: center;
+  width: 75%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
+}
+
 .banniere .texte-banniere {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 2rem;  /* display-6 (Bootstrap) a approximativement cette taille */
+  font-size: 3rem;  /* display-6 (Bootstrap) a approximativement cette taille */
   text-align: center;
   width: 75%;
   font-weight: bold;
@@ -56,4 +77,14 @@
 
 .img-centered {
   margin-top:60px;
+}
+
+.footer{
+  z-index: 10; 
+  margin-bottom: -50px;
+}
+
+.header{
+  z-index: 10; 
+  margin-bottom: -50px;
 }

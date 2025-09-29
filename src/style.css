@@ -1,9 +1,20 @@
+body {
+  font-family: 'PoliceInter', sans-serif; 
+}
+
 :root,
 [data-bs-theme=light] {
   --bs-primary: #ef5552;
   --bs-primary-rgb: 239, 85, 82;
   --bs-secondary: #6e6e6e;
   --bs-secondary-rgb: 50, 50, 50;
+}
+
+@font-face {
+  font-family: 'PoliceInter';
+  src: url('../Font/Work_Sans/WorkSans-VariableFont_wght.ttf') format('truetype'); /* Adaptez le format si nécessaire */
+  font-weight: normal;
+  font-style: normal;
 }
 
 .swiper-slide { width: 100% !important; }
@@ -80,6 +91,7 @@
 }
 
 .footer{
+  font-family: 'PoliceInter', sans-serif; 
   z-index: 10; 
   margin-bottom: -50px;
 }

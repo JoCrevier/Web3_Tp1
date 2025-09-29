@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="src/style.css" />
+  <script src="src/script.js"></script>
+</head>
+
+<body data-bs-theme="dark" class="d-flex flex-column" style="min-height: 100vh;">
+
+<!-- HEADER -->
+  <header class="py-3 container-fluid position-relative" style="z-index: 10; margin-bottom: -50px;">
+    <div class="container-fluid">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-auto mx-auto">
+          <ul class="nav bg-secondary rounded px-4 py-2">
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3 fw-bold" href="Page_Accueil.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3 fw-bold" href="#">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3 fw-bold" href="#">Nos recommandations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white mx-3 fw-bold" href="#">Nos meilleures notes</a>
+            </li>
+            <li class="nav-item">
+              <div class="col-md-auto mx-3">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Rechercher un jeu" aria-label="Search">
+                  <button class="btn btn-outline-light fw-bold" type="submit">Rechercher</button>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+<!-- HEADER -->
+
+<!-- Bannière -->
+  <div class="banniere2">
+    <h2 class="texte-banniere">
+      
+    </h2>
+  </div>
+<!-- Bannière -->
+
+<!-- MAIN -->
+  <main class="container mx-auto" style="max-width: 2250px;">
+
+<!-- Meilleures notes -->
+<section class="col-12 mt-5">
+    <section id="histoire" class="bg-secondary rounded mb-5 p-4">
+        <h2 class="text-uppercase text-center display-6 fw-bold">Nos meilleures notes !</h2>
+        <hr class="border-3 w-100 mx-auto my-4" />
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+
+    <!-- Carte 1 -->
+<div class="col mt-5">
+  <div class="card h-100 d-flex flex-column">
+    <img src="./img/Star_Citizen_01.jpg" class="card-img-top" alt="Star Citizen">
+    <div class="card-body d-flex flex-column flex-grow-1">
+      <a href="#" class="text-decoration-none text-white fw-bold text-uppercase">
+        Star Citizen
+      </a>
+      <hr>
+      <p class="card-text">
+        Plongé dans l’univers de Star Citizen, explorez un gigantesque monde ouvert persistant où chaque voyage est une aventure. Pilotez des vaisseaux, commercez, combattez et façonnez votre propre légende dans un univers en constante évolution.
+      </p>
+      <div class="bg-success text-white text-center py-2 rounded mt-auto">
+        9 / 10
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Carte 2 -->
+    <div class="col mt-5">
+      <div class="card h-100">
+        <img src="./img/Ghost_recon_01.jpg" class="card-img-top" alt="Ghost Recon Wildlands">
+         <div class="card-body d-flex flex-column flex-grow-1">
+           <a href="Page_Evaluer.html" class="text-decoration-none text-white fw-bold text-uppercase">
+          Ghost recon Wildlands
+        </a>
+        <hr>
+        <p class="card-text">
+            Plongé dans l’univers de Ghost Recon Wildlands, incarnez un soldat d’élite en mission en Bolivie pour démanteler un cartel dangereux. Explorez un immense monde ouvert en solo ou en coopération, où chaque décision peut changer le cours de l’opération.
+        </p>
+       <div class="bg-success text-white text-center py-2 rounded mt-auto">
+        10 / 10
+      </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carte 3 -->
+    <div class="col mt-5">
+      <div class="card h-100">
+        <img src="./img/Hitman_01.jpeg" class="card-img-top" alt="Hitman">
+         <div class="card-body d-flex flex-column flex-grow-1">
+        <a href="#" class="text-decoration-none text-white fw-bold text-uppercase">
+          Hitman
+        </a>
+            <hr>
+        <p class="card-text">
+           Plongé dans l’univers de Hitman, incarnez l’agent 47, un assassin professionnel, et accomplissez des missions furtives à travers le monde. Utilisez discrétion, stratégie et déguisements pour éliminer vos cibles avec précision.
+        </p>
+       <div class="bg-success text-white text-center py-2 rounded mt-auto">
+        10 / 10
+      </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carte 4 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/Sea_Power_01.jpg" class="card-img-top" alt="Sea Power">
+         <div class="card-body d-flex flex-column flex-grow-1">
+        <a href="#" class="text-decoration-none text-white fw-bold text-uppercase">
+          Sea Power
+        </a>
+        <hr>
+        <p class="card-text">
+           Plongé dans l’univers de Sea Power, prenez le commandement de forces navales pendant la guerre froide et menez des affrontements stratégiques en haute mer. Coordonnez sous-marins, destroyers et frappes aériennes dans une simulation réaliste du combat naval moderne.
+        </p>
+          <div class="bg-success text-white text-center py-2 rounded mt-auto">
+        8.5 / 10
+      </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carte 5 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/Anno_1800.jpg" class="card-img-top" alt="Anno 1800">
+         <div class="card-body d-flex flex-column flex-grow-1">
+         <a href="#" class="text-decoration-none text-white fw-bold text-uppercase">
+          Anno 1800
+        </a>
+        <hr>
+        <p class="card-text">
+           Plongé dans l’univers de Anno 1800, bâtissez un empire industriel au cœur de la révolution industrielle. Gérez vos ressources, explorez de nouveaux territoires et développez des villes florissantes dans un équilibre entre stratégie et économie.
+        </p>
+       <div class="bg-success text-white text-center py-2 rounded mt-auto">
+        9 / 10
+      </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carte 6 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/Cyberpunk_01.jpg" class="card-img-top" alt="CyberPunk 2077">
+         <div class="card-body d-flex flex-column flex-grow-1">
+          <a href="#" class="text-decoration-none text-white fw-bold text-uppercase">
+         Cybperpunk 2077
+        </a>
+        <hr>
+        <p class="card-text">
+           Plongé dans l’univers de Cyberpunk 2077, explorez Night City, une mégalopole futuriste où technologie et chaos s'entremêlent. Incarnez V, un mercenaire en quête de gloire, et façonnez votre destin dans un monde ouvert riche et brutal.
+        </p>
+          <div class="bg-success text-white text-center py-2 rounded mt-auto">
+        9 / 10
+      </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </section>
+</section>
+
+<!-- Simulateur -->
+<section class="col-12 mt-5">
+  <section id="histoire" class="bg-secondary rounded mb-5 p-4">
+    <h2 class="text-uppercase text-center display-6 fw-bold">Simulateur</h2>
+    <hr class="border-3 w-100 mx-auto my-4" />
+
+    <div class="row g-4">
+
+      <!-- Carte 1 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card h-100">
+          <img src="./img/Star_Citizen_01.jpg" class="card-img-top" alt="Star Citizen">
+          <div class="card-body">
+            <h5 class="card-title">Star Citizen</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card h-100">
+          <img src="./img/MFS_01.jpg" class="card-img-top" alt="MFS">
+          <div class="card-body">
+            <h5 class="card-title">Microsoft Flight Simulator</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card h-100">
+          <img src="./img/DCS_01.jpg" class="card-img-top" alt="DCS World">
+          <div class="card-body">
+            <h5 class="card-title">DCS World</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 4 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card h-100">
+          <img src="./img/Sea_Power_01.jpg" class="card-img-top" alt="Sea Power">
+          <div class="card-body">
+            <h5 class="card-title">Sea Power</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card h-100">
+          <img src="./img/Ground_Branch_01.jpg" class="card-img-top" alt="Ground Branch">
+          <div class="card-body">
+            <h5 class="card-title">Ground Branch</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 6 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card h-100">
+          <img src="./img/Arma3_01.jpg" class="card-img-top" alt="Arma 3">
+          <div class="card-body">
+            <h5 class="card-title">Arma 3</h5>
+          </div>
+        </div>
+      </div>
+    <div class="text-uppercase text-center fw-bold">Tout voir</div>
+    </div>
+  </section>
+</section>
+
+<!-- Action -->
+<section class="col-12 mt-5">
+  <section id="histoire" class="bg-secondary rounded mb-5 p-4">
+    <h2 class="text-uppercase text-center display-6 fw-bold">Action</h2>
+    <hr class="border-3 w-100 mx-auto my-4" />
+
+    <div class="row g-4">
+
+      <!-- Carte 1 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card h-100">
+          <img src="./img/BF_01.jpg" class="card-img-top" alt="Battlefield 5">
+          <div class="card-body">
+            <h5 class="card-title">Battlefield 5</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card h-100">
+          <img src="./img/TheFinals_01.jpeg" class="card-img-top" alt="The Finals">
+          <div class="card-body">
+            <h5 class="card-title">The Finals</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card h-100">
+          <img src="./img/Payday_01.jpg" class="card-img-top" alt="Payday 3">
+          <div class="card-body">
+            <h5 class="card-title">Payday 3</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 4 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card h-100">
+          <img src="./img/PUBG_01.jpg" class="card-img-top" alt="PUBG">
+          <div class="card-body">
+            <h5 class="card-title">PUBG</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card h-100">
+          <img src="./img/SGW_01.webp" class="card-img-top" alt="SGW">
+          <div class="card-body">
+            <h5 class="card-title">Sniper Ghost Warrior Contract 2</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 6 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card h-100">
+          <img src="./img/R6_01.jpg" class="card-img-top" alt="R6">
+          <div class="card-body">
+            <h5 class="card-title">Rainbow Six Siege</h5>
+          </div>
+        </div>
+      </div>
+    <div class="text-uppercase text-center fw-bold">Tout voir</div>
+    </div>
+  </section>
+</section>
+
+<!-- MAIN -->
+
+<!-- FOOTER -->
+  <footer class=" py-3 container-fluid position-relative" style="z-index: 10; margin-bottom: -50px;">
+    <div class="container-fluid">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-12 mx-auto bg-secondary rounded">
+          <p class="align-items-center justify-content-between text-center mt-2 mb-2">2025 © Site de critique</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- FOOTER -->
+</body>
+</html>
